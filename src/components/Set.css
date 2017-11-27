@@ -1,0 +1,45 @@
+.set-overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.set-overview__item {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+.set-preview a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.set-preview__title {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  background: linear-gradient(-45deg, #07BAB8 0%, #016CA7 100%);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.set-preview img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.set .divider__title {
+  width: 100%;
+}

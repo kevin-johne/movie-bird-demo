@@ -1,0 +1,14 @@
+.episode-preview {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.episode-preview img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.episode-preview__title {
+  text-decoration: none;
+}
